@@ -1,1 +1,50 @@
+/* some global styles possibly*/
+section {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px 0;
+    border-bottom: 1px solid black;
+}
+
+.hero {
+    height:400px;
+    background-color:gray;
+}
+
+.light-gray-bg {
+    background-color: lightgray;
+}
+
+.has-bg-image {
+    background-image: url(https://via.placeholder.com/350x150);
+}
+
+.hero h1 {
+    text-align: center;
+}
+
+.cta {
+    background-color:aquamarine;
+    color: darkslateblue;
+    padding: 1em;
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+.cta:hover {
+    background-color:azure;
+}
+
+.secondary-cta {
+    background-color: pink;
+    color: darkslateblue;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.secondary-cta:hover {
+    background-color: rgb(255, 232, 235);
+}
 /*css for jamie's page only*/
