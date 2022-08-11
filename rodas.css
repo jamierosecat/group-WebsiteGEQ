@@ -1,1 +1,47 @@
+/* some global styles possibly */
+section{
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px 0;
+    border-bottom: 1px solid black;
+
+}
+
+.hero {
+    background-image: url(./Rodas-images/no-revisions-8Xm3NDLsvUA-unsplash.jpg);
+    background-color: gray;
+    height: 400px;
+}
+.light-gray-bg {
+    background-color: lightgray;
+}
+
+.cta{
+    background-color: red;
+    color: rgb(63, 3, 3);
+    padding: 1em;
+    border-radius: 20px;
+    transition: .3s;
+    text-decoration: none;
+
+}
+
+.cta:hover{
+    background-color: black;
+    color-scheme: red;
+}
+
+.secondary-cta {
+    background-color: white;
+    color: brown;
+}
+
+
+
+
+
+
+
 /* css for Rodas's page only  */
