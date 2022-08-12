@@ -9,20 +9,23 @@ section {
 }
 
 .hero {
-    height:400px;
-    background-color:gray;
+    height:500px;
 }
 
 .light-gray-bg {
-    background-color: lightgray;
+    background-color: transparent gray;
 }
 
 .has-bg-image {
-    background-image: url(https://via.placeholder.com/350x150);
+    background-image: url(https://images.unsplash.com/photo-1564602832342-3f6c84a37e47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 .hero h1 {
     text-align: center;
+    color:pink;
+    background-color:black;
 }
 
 .cta {
