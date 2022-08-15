@@ -1,3 +1,15 @@
+:root {
+    --primary-color:blue;
+    --primary-color-contrast:pink;
+    /* --secondary-color: red */
+    --secondary-color-contrast: black; 
+}
+
+
+
+
+
+
 /* some global styles possibly */
 section{
     justify-content: center;
@@ -6,6 +18,7 @@ section{
     align-items: center;
     padding: 50px 0;
     border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--secondary-color-contrast) ;
 
 }
 
@@ -14,13 +27,13 @@ section{
     background-color: gray;
     height: 400px;
 }
-.light-gray-bg {
-    background-color: lightgray;
+.primary-bg {
+    background-color: var(--primary-color-contrast);
 }
 
 .cta{
-    background-color: red;
-    color: rgb(63, 3, 3);
+    background-color: var(--primary-color);
+    color: var(--primary-color-contrast);
     padding: 1em;
     border-radius: 20px;
     transition: .3s;
@@ -29,15 +42,19 @@ section{
 }
 
 .cta:hover{
-    background-color: black;
-    color-scheme: red;
+    background-color: var(--primary-color-contrast);
+    color-scheme: var(--primary-color);
 }
 
 .secondary-cta {
-    background-color: white;
-    color: brown;
+    background-color: var(--secondary-color);
+    color: var(--secondary-color-contrast);
 }
 
+.secondary-cta:hover {
+    color: var(--secondary-color) ;
+    background-color: var(--secondary-color-contrast);
+}
 
 
 
